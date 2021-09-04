@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  border: 1px solid black;
+  height: 608px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-collapse: collapse;
+  transform: translate(-50%, -50%);
+}
+
+.container td {
+  border: 1px solid black;
+  border-left: none;
+  word-break: break-all;
+  width: 33.33%;
+  height: 33.33%;
+}
+.container td img {
+  width: 100%;
+  height: auto;
+}
